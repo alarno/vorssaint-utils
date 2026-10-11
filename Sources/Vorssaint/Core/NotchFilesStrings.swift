@@ -59,7 +59,7 @@ extension FeatureStrings {
             optimizeMedia: "Otimizar mídia",
             optimizeDropHint: "Arraste imagens ou um vídeo até a ilha e solte em Otimizar mídia para escolher como salvar uma cópia.",
             resumeMedia: "Voltar à mídia")
-        case .es, .ca: return NotchFilesStrings(
+        case .es: return NotchFilesStrings(
             archive: "Crear ZIP",
             archiveHint: "Cada elemento seleccionado se guarda en un ZIP separado. Se conservan los originales.",
             saved: "Guardado",
@@ -76,6 +76,23 @@ extension FeatureStrings {
             optimizeMedia: "Optimizar contenido",
             optimizeDropHint: "Arrastra imágenes o un vídeo a la isla y suéltalos en Optimizar contenido para elegir cómo guardar una copia.",
             resumeMedia: "Volver al contenido multimedia")
+        case .ca: return NotchFilesStrings(
+            archive: "Crear ZIP",
+            archiveHint: "Cada element seleccionat es desa en un ZIP separat. Es conserven els originals.",
+            saved: "Desat",
+            downloadsTitle: "Baixades",
+            downloadsDescription: "Vegeu els fitxers que arriben a una carpeta triada, directament a la Dynamic Island.",
+            downloadsHint: "Tria la carpeta on el teu navegador desa les baixades. Només se supervisa aquesta carpeta.",
+            chooseFolder: "Triar carpeta…",
+            folderUnavailable: "La carpeta no està disponible. Tria-la de nou per recuperar-hi l’accés.",
+            waiting: "No hi ha fitxers en aquesta carpeta",
+            inProgress: "Baixant",
+            totalUnknown: "Mida total no disponible",
+            completed: "Baixada completada",
+            clearFolder: "Oblidar carpeta",
+            optimizeMedia: "Optimitzar contingut multimèdia",
+            optimizeDropHint: "Arrossega imatges o un vídeo a la Dynamic Island i deixa’ls anar a Optimitzar contingut multimèdia per triar com desar-ne una còpia.",
+            resumeMedia: "Tornar al contingut multimèdia")
         case .sk: return NotchFilesStrings(
             archive: "Vytvoriť ZIP",
             archiveHint: "Každá vybratá položka sa uloží ako samostatný ZIP. Originály zostanú nezmenené.",

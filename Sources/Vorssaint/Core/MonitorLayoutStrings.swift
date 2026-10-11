@@ -18,7 +18,8 @@ extension FeatureStrings {
         case .ptBR: return .ptBR
         case .tr: return .tr
         case .ru: return .ru
-        case .es, .ca: return .es
+        case .es: return .es
+        case .ca: return .ca
         case .sk: return .sk
         case .de: return .de
         case .fr: return .fr
@@ -57,6 +58,11 @@ extension MonitorLayoutFeatureStrings {
     static let es = MonitorLayoutFeatureStrings(
         shared: "Lecturas y alertas",
         networkSpeedUnit: "Unidad de velocidad de red"
+    )
+
+    static let ca = MonitorLayoutFeatureStrings(
+        shared: "Lectures i alertes",
+        networkSpeedUnit: "Unitat de velocitat de xarxa"
     )
 
     static let sk = MonitorLayoutFeatureStrings(

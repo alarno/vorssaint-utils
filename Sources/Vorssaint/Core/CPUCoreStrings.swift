@@ -22,7 +22,8 @@ extension FeatureStrings {
         case .ptBR: return .ptBR
         case .tr: return .tr
         case .ru: return .ru
-        case .es, .ca: return .es
+        case .es: return .es
+        case .ca: return .ca
         case .sk: return .sk
         case .de: return .de
         case .fr: return .fr
@@ -90,6 +91,17 @@ extension CPUCoreFeatureStrings {
         efficiencyCores: "Eficiencia",
         apps: "Apps usando CPU",
         perCore: "Por núcleo"
+    )
+
+    static let ca = CPUCoreFeatureStrings(
+        title: "Nuclis lògics de la CPU",
+        coreFormat: "Nucli %d",
+        hint: "Cada barra és un nucli lògic. L’alçària del farciment n’indica l’ús.",
+        superCores: "Súper",
+        performanceCores: "Rendiment",
+        efficiencyCores: "Eficiència",
+        apps: "Apps que utilitzen la CPU",
+        perCore: "Per nucli"
     )
 
     static let sk = CPUCoreFeatureStrings(

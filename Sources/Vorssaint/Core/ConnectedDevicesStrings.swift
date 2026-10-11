@@ -27,7 +27,8 @@ extension FeatureStrings {
         case .ptBR: return .ptBR
         case .tr: return .tr
         case .ru: return .ru
-        case .es, .ca: return .es
+        case .es: return .es
+        case .ca: return .ca
         case .sk: return .sk
         case .de: return .de
         case .fr: return .fr
@@ -91,6 +92,16 @@ private extension ConnectedDevicesFeatureStrings {
         menuBarLabel: "USB",
         oneConnected: "1 dispositivo conectado",
         devicesConnectedFormat: "%d dispositivos conectados"
+    )
+
+    static let ca = ConnectedDevicesFeatureStrings(
+        title: "Dispositius connectats",
+        hubDescription: "Comptar els perifèrics USB externs connectats",
+        noDevices: "No hi ha cap dispositiu extern connectat",
+        unnamedDevice: "Dispositiu USB",
+        menuBarLabel: "USB",
+        oneConnected: "1 dispositiu connectat",
+        devicesConnectedFormat: "%d dispositius connectats"
     )
     static let sk = ConnectedDevicesFeatureStrings(
         title: "Pripojené zariadenia",

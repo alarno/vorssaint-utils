@@ -21,7 +21,8 @@ extension FeatureStrings {
         case .ptBR: return .ptBR
         case .tr: return .tr
         case .ru: return .ru
-        case .es, .ca: return .es
+        case .es: return .es
+        case .ca: return .ca
         case .sk: return .sk
         case .de: return .de
         case .fr: return .fr
@@ -90,6 +91,17 @@ extension RecentCaptureStrings {
         open: "Abrir",
         remove: "Quitar del historial",
         clear: "Borrar historial"
+    )
+
+    static let ca = RecentCaptureStrings(
+        title: "Captures recents",
+        empty: "Fes una captura o desa un enregistrament per trobar-lo aquí.",
+        screenshot: "Captura de pantalla",
+        recording: "Enregistrament",
+        restore: "Restaurar",
+        open: "Obrir",
+        remove: "Eliminar de l’historial",
+        clear: "Buidar l’historial"
     )
 
     static let sk = RecentCaptureStrings(

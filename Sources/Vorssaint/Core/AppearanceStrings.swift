@@ -18,7 +18,8 @@ extension FeatureStrings {
         case .ptBR: return .ptBR
         case .tr: return .tr
         case .ru: return .ru
-        case .es, .ca: return .es
+        case .es: return .es
+        case .ca: return .ca
         case .sk: return .sk
         case .de: return .de
         case .fr: return .fr
@@ -71,6 +72,14 @@ extension AppearanceStrings {
         system: "Sistema",
         light: "Clara",
         dark: "Oscura",
+        liquidGlass: "Liquid Glass"
+    )
+
+    static let ca = AppearanceStrings(
+        label: "Aspecte",
+        system: "Sistema",
+        light: "Clar",
+        dark: "Fosc",
         liquidGlass: "Liquid Glass"
     )
 
