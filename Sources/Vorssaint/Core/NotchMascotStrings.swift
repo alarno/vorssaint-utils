@@ -192,7 +192,7 @@ extension FeatureStrings {
             petTip: "Deixe o ponteiro parado sobre ele para fazer carinho. Sozinho, ele cochila até você voltar.",
             livesInIsland: "O companheiro mora no Dynamic Island.",
             keywords: "mascote bichinho amigo personagem")
-        case .es: return NotchMascotStrings(
+        case .es, .ca: return NotchMascotStrings(
             title: "Compañero",
             hint: "Un amiguito que vive en el Dynamic Island. Descansa allí cuando no se muestra nada más y sale sobre la música y las actividades para saludar y reaccionar a lo que pasa.",
             visits: "Aparecer de vez en cuando",

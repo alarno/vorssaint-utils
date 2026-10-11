@@ -23,7 +23,7 @@ struct SettingsNavigationStrings {
         case .ru:
             return Self(go: "Переход", back: "Назад", forward: "Вперёд",
                         showSidebar: "Показать боковое меню", hideSidebar: "Скрыть боковое меню")
-        case .es:
+        case .es, .ca:
             return Self(go: "Ir", back: "Atrás", forward: "Adelante",
                         showSidebar: "Mostrar barra lateral", hideSidebar: "Ocultar barra lateral")
         case .sk:

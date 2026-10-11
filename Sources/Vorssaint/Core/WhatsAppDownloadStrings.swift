@@ -49,7 +49,7 @@ struct WhatsAppDownloadStrings {
         switch language {
         case .enUS: return .enUS
         case .ptBR: return .ptBR
-        case .es: return .es
+        case .es, .ca: return .es
         case .sk: return .sk
         case .tr: return .tr
         case .ru: return .ru
@@ -516,7 +516,7 @@ extension WhatsAppDownloadStrings {
             lastRunFormat: ptBR.lastRunFormat, nextRunFormat: ptBR.nextRunFormat,
             firstMessageFormat: ptBR.firstMessageFormat, localNote: ptBR.localNote,
             notificationFormat: ptBR.notificationFormat, scanFailed: ptBR.scanFailed, manageButton: ptBR.manageButton)
-        case .es: return OperationalStrings(
+        case .es, .ca: return OperationalStrings(
             automaticCaption: es.automaticCaption, retentionCaption: es.retentionCaption,
             manualIntro: es.manualIntro, resultsFormat: es.resultsFormat,
             selectRules: es.selectRules, cleanSelectedFormat: es.cleanSelectedFormat,

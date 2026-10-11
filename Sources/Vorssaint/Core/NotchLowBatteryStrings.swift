@@ -32,7 +32,7 @@ struct NotchLowBatteryStrings {
                          threshold: "Красный уровень", early: "Сначала янтарный",
                          earlyCaption: "Показывает заряд янтарным на более высоком уровне или ниже, как раннее предупреждение.",
                          earlyThreshold: "Янтарный уровень", menuBar: "Также в строке меню")
-        case .es:
+        case .es, .ca:
             return .init(title: "Poner en rojo con poca batería", caption: "Muestra la carga en rojo en este nivel o por debajo mientras usa la batería.",
                          threshold: "Nivel rojo", early: "Poner en ámbar antes",
                          earlyCaption: "Muestra la carga en ámbar en un nivel más alto o por debajo, como primer aviso.",

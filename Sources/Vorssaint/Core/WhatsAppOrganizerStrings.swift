@@ -39,7 +39,7 @@ struct WhatsAppOrganizerStrings {
         switch language {
         case .enUS: return .enUS
         case .ptBR: return .ptBR
-        case .es: return .es
+        case .es, .ca: return .es
         case .sk: return .sk
         case .tr: return .tr
         case .ru: return .ru

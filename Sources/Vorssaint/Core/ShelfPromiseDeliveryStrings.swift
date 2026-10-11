@@ -40,7 +40,7 @@ struct ShelfPromiseDeliveryStrings {
                 fullTitle: "Полка заполнена",
                 fullBody: "Вложение сохранилось, но на полке больше нет места.",
                 okButton: "OK")
-        case .es:
+        case .es, .ca:
             return .init(
                 failedTitle: "No se pudo añadir el adjunto",
                 failedBody: "El archivo no terminó de guardarse en la bandeja.",

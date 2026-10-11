@@ -99,7 +99,7 @@ extension FeatureStrings {
         switch language {
         case .enUS: return .enUS
         case .ptBR: return .ptBR
-        case .es: return .es
+        case .es, .ca: return .es
         case .sk: return .sk
         case .de: return .de
         case .fr: return .fr

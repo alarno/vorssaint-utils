@@ -76,7 +76,7 @@ enum AlertSoundStrings {
         case .ru:
             return russian
 
-        case .es:
+        case .es, .ca:
             return spanish
 
         case .sk:

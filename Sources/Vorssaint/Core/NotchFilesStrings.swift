@@ -59,7 +59,7 @@ extension FeatureStrings {
             optimizeMedia: "Otimizar mídia",
             optimizeDropHint: "Arraste imagens ou um vídeo até a ilha e solte em Otimizar mídia para escolher como salvar uma cópia.",
             resumeMedia: "Voltar à mídia")
-        case .es: return NotchFilesStrings(
+        case .es, .ca: return NotchFilesStrings(
             archive: "Crear ZIP",
             archiveHint: "Cada elemento seleccionado se guarda en un ZIP separado. Se conservan los originales.",
             saved: "Guardado",

@@ -119,7 +119,7 @@ extension FeatureStrings {
             closedNotice: "A janela fechou",
             sinceFormat: "Observando desde %@",
             sound: "Tocar um som")
-        case .es: return NotchWatchStrings(
+        case .es, .ca: return NotchWatchStrings(
             title: "Observar",
             description: "Convierte cualquier parte de cualquier ventana en una actividad en directo en el Dynamic Island, con un aviso cuando cambie, termine o muestre lo que esperas.",
             setupHint: "Elige cualquier parte de una ventana, como una barra de progreso, el estado de una compilación o un marcador. La isla la lee por ti y te avisa cuando cambia.",

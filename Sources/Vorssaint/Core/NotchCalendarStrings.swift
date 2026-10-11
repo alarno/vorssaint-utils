@@ -110,7 +110,7 @@ extension FeatureStrings {
             weekNumbers: "Números das semanas",
             weekNumber: "Semana %d",
             calendars: "Calendários exibidos")
-        case .es: return NotchCalendarStrings(
+        case .es, .ca: return NotchCalendarStrings(
             title: "Calendario",
             description: "Consulta el mes y tus próximas citas en el Dynamic Island.",
             permission: "Lee tus calendarios para mostrar las próximas citas. Los eventos se quedan en este Mac.",

@@ -30,7 +30,7 @@ extension FeatureStrings {
         case .ptBR: return .ptBR
         case .tr: return .tr
         case .ru: return .ru
-        case .es: return .es
+        case .es, .ca: return .es
         case .sk: return .sk
         case .de: return .de
         case .fr: return .fr

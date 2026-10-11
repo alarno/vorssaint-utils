@@ -231,7 +231,7 @@ extension FeatureStrings {
             agentsSummary: "Uso, limites e custos do Claude Code, do Codex, do OpenCode e do GitHub Copilot.",
             watchSummary: "Qualquer parte de uma janela, lida ao vivo, com aviso quando mudar."
         )
-        case .es: return NotchEditorStrings(
+        case .es, .ca: return NotchEditorStrings(
             layout: "Diseño",
             content: "Contenido",
             activity: "Actividad",

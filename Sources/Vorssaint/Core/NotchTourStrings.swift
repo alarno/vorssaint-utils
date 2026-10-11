@@ -15,7 +15,7 @@ extension FeatureStrings {
             caption: "Control music, timers, volume and brightness. Choose the floating shortcuts you use most.")
         case .ptBR: return NotchTourStrings(preview: "Prévia da 3.4",
             caption: "Controle música, temporizadores, volume e brilho. Escolha os atalhos flutuantes que você mais usa.")
-        case .es: return NotchTourStrings(preview: "Vista previa de 3.4",
+        case .es, .ca: return NotchTourStrings(preview: "Vista previa de 3.4",
             caption: "Controla la música, los temporizadores, el volumen y el brillo. Elige los accesos flotantes que más usas.")
         case .sk: return NotchTourStrings(preview: "Ukážka verzie 3.4",
             caption: "Ovládajte hudbu, časovače, hlasitosť a jas. Vyberte plávajúce skratky, ktoré používate najčastejšie.")

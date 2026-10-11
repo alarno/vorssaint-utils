@@ -29,7 +29,7 @@ extension FeatureStrings {
             return RecorderExportStrings(
                 speed: "Скорость экспорта", custom: "Своя скорость", duration: "Длительность экспорта",
                 previewNote: "Применяется к видео, GIF и общим ссылкам. Предпросмотр остаётся на скорости 1×; исходная запись не меняется.")
-        case .es:
+        case .es, .ca:
             return RecorderExportStrings(
                 speed: "Velocidad de exportación", custom: "Velocidad personalizada", duration: "Duración exportada",
                 previewNote: "Se aplica a vídeos, GIF y enlaces compartidos. La vista previa sigue a 1×; la grabación original no cambia.")

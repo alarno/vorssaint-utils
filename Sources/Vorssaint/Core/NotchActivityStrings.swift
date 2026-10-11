@@ -108,7 +108,7 @@ extension FeatureStrings {
             lowBattery: "Bateria baixa",
             keepAwakeActivity: "Mostrar “Manter acordado” na ilha fechada",
             keepAwakeActivityHint: "A sessão em andamento aparece ao lado da câmera com o tempo restante, ou ∞ quando não tem fim.")
-        case .es: return NotchActivityStrings(
+        case .es, .ca: return NotchActivityStrings(
             timer: "Temporizador",
             timerDescription: "Temporizadores, cronómetro y sesiones de concentración en el Dynamic Island.",
             pomodoro: "Pomodoro",

@@ -20,7 +20,7 @@ extension FeatureStrings {
             title: "Gestos do Dynamic Island",
             description: "Abra e feche o Dynamic Island com a rolagem e deslize para trocar de música.",
             hint: "Role para baixo para abrir. Role para cima sobre a faixa superior para fechar. Deslize para os lados sobre a música para trocar de faixa. As listas mantêm a própria rolagem.")
-        case .es: return NotchGestureStrings(
+        case .es, .ca: return NotchGestureStrings(
             title: "Gestos del Dynamic Island",
             description: "Abre y cierra el Dynamic Island al desplazarte y desliza para cambiar de canción.",
             hint: "Desplázate hacia abajo para abrir. Hacia arriba sobre la fila superior para cerrar. Desliza a los lados sobre la música para cambiar de pista. Las listas conservan su desplazamiento.")

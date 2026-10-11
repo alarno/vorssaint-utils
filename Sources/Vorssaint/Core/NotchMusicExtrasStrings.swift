@@ -139,7 +139,7 @@ extension FeatureStrings {
             preferredPlayer: "Abrir quando nada estiver tocando",
             preferredPlayerHint: "A capa e os botões de reprodução abrem este app. Automático abre o app de música que tocou por último, depois o Spotify ou o Apple Music.",
             openNamedPlayer: "Abrir %@")
-        case .es: return NotchMusicExtrasStrings(
+        case .es, .ca: return NotchMusicExtrasStrings(
             lyrics: "Letra",
             lyricsDescription: "Sigue la letra de la canción actual en el Dynamic Island.",
             enableLyrics: "Mostrar letra",
